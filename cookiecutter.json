@@ -3,7 +3,7 @@
   "package_name": "mypackage",
   "min_test_coverage": 0,
   "_copy_without_render": [
-    "*.html",
+    "README.md",
     "*.github",
     "ci/tests.yml",
     "ci/linters.yml",

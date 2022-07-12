@@ -1,7 +1,7 @@
 Prerequisites: 
  - taskfile https://taskfile.dev/installation/
  - poetry https://python-poetry.org/docs/#installation
- - 
+
 ### USAGE
 
 - Create new repository:

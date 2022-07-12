@@ -28,4 +28,6 @@ git push -u origin main
   - run ```task init``` to create .venv with dependencies
   - activate the environment (```poetry shell``` or ```source .venv/bin/activate```)
   - run ```task``` in the ```repository_name``` folder.
+- Check the CI/CD pipeline on github actions. 
+  - Package uploading would require PYPI_PWD to be set in secrets.
 

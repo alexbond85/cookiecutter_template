@@ -1,0 +1,2 @@
+PACKAGE={{ cookiecutter.package_name }}
+MIN_REQUESTED_COVERAGE={{ cookiecutter.min_test_coverage }}

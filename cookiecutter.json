@@ -1,0 +1,13 @@
+{
+  "repo_name": "myrepo",
+  "package_name": "mypackage",
+  "min_test_coverage": 0,
+  "_copy_without_render": [
+    "*.html",
+    "*.github",
+    "ci/tests.yml",
+    "ci/linters.yml",
+    "ci/format.yml",
+    "ci/clean.yml"
+  ]
+}

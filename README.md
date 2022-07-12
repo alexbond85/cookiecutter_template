@@ -19,7 +19,7 @@ Prerequisites:
     - don't choose the option "create README file"
 - Connect local folder with github:
   - git remote add origin git@github.com:shippeo/repository_name
-  - git push -u origin master
+  - git push -u origin main
 - Run CI pipiline locally:
   - run ```task init``` to create .venv with dependencies
   - activate the environment (```poetry shell``` or ```source .venv/bin/activate```)

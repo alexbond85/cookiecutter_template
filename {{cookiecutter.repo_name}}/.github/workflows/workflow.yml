@@ -27,4 +27,3 @@ jobs:
       pypi_pwd: ${{ secrets.PYPI_PWD }}
     with:
       tag: ${{ needs.push_tag.outputs.tag }}
-

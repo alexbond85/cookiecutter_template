@@ -10,16 +10,20 @@ Prerequisites:
     - fill in the fields (repository_name, package_name...)
   - deactivate the environment
 - Add version control:
-  - go to the created folder ```cd repository_name```
-  - type ```git init```
-  - type ```git add .```
-  - type ```git commit -m "main initial commit"```
+```cd repository_name
+git init
+git add .```
+git commit -m "main initial commit"
+```
 - Create a repository with ```repository_name``` on github 
   - go to github, create new repository with previously entered repository name
     - don't choose the option "create README file"
 - Connect local folder with github:
-  - git remote add origin git@github.com:shippeo/repository_name
-  - git push -u origin main
+```commandline
+git remote add origin git@github.com:shippeo/repo_name.git
+git branch -M main
+git push -u origin main
+```
 - Run CI pipiline locally:
   - run ```task init``` to create .venv with dependencies
   - activate the environment (```poetry shell``` or ```source .venv/bin/activate```)
